@@ -1,6 +1,7 @@
 # oo3ApolloProject
 LBYCPEI EQ5 Final Project Proposal
 
+Appointed Leader: Genito
 Members: Garcia, Genito, and Lin
 
 Project Title: Mikey's Beach Adventure
