@@ -1,0 +1,37 @@
+/* style.css */
+
+.vbox-container {
+    -fx-alignment: center;
+    -fx-pref-height: 438.0;
+    -fx-pref-width: 673.0;
+    -fx-spacing: 20.0;
+    -fx-background-image: url('file:src/main/resources/MainMenuBG.jpg');
+}
+
+.vbox-container .vbox-content {
+    -fx-padding: 20.0;
+}
+
+.image-view {
+    -fx-fit-height: 179.0;
+    -fx-fit-width: 321.0;
+    -fx-pick-on-bounds: true;
+    -fx-preserve-ratio: true;
+}
+
+.button {
+    -fx-background-color: #FFA500;
+    -fx-pref-height: 27.0;
+    -fx-pref-width: 70.0;
+    -fx-text-fill: white;
+    -fx-font-family: "Fugaz One";
+    -fx-font-size: 14.0;
+}
+
+.button-effect {
+    -fx-effect: sepia(0.0);
+}
+
+.button-effect .reflection-effect {
+    -fx-input: reflection;
+}
