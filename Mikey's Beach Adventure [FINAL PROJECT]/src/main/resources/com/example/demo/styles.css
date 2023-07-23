@@ -1,0 +1,4 @@
+#main-container {
+    -fx-background-image: url('file:src/main/resources/MainMenuBG.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;

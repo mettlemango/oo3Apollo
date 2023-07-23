@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="907.0" style="-fx-background-color: #f8efd3;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="425.0" layoutX="73.0" layoutY="221.0" stroke="BLACK" strokeType="INSIDE" width="342.0">
+         <effect>
+            <DropShadow height="99.35" radius="53.4325" width="116.38">
+               <color>
+                  <Color red="0.4216121435165405" green="0.8245614171028137" blue="0.18832574784755707" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <ImageView fitHeight="237.0" fitWidth="269.0" layoutX="54.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../mikey.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="225.0" fitWidth="179.0" layoutX="705.0" layoutY="422.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../michel.png" />
+         </image>
+      </ImageView>
+      <Text fill="#7b0015" layoutX="82.0" layoutY="251.0" lineSpacing="6.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meet Mikey, a young boy with a heart as vast as the ocean and a spirit as free as a soaring seagull. His infectious passion for marine life drives him to protect underwater wonders. From sea turtles to colorful fish, he knows them all by heart. Mikey volunteers at marine conservation organizations and organizes beach clean-ups, making a magical connection with sea creatures. His dedication knows no bounds, whether raising awareness about climate change or reducing single-use plastic." wrappingWidth="322.0000000000002">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <effect>
+            <Bloom>
+               <input>
+                  <Glow />
+               </input>
+            </Bloom>
+         </effect>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="412.0" layoutX="486.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="342.0">
+         <effect>
+            <DropShadow height="80.37" radius="39.9275" spread="0.22" width="81.34">
+               <color>
+                  <Color red="0.9561403393745422" green="0.42249205708503723" blue="0.041314706206321716" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Text fill="#ff5100" layoutX="496.0" layoutY="33.0" lineSpacing="4.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meet Michelangelo, the ocean-loving ninja turtle with a heart as vast as the sea. His infectious passion for marine life drives him to protect underwater wonders. From sea turtles to colorful fish, he knows them all by heart. Michelangelo's deep connection to the ocean fuels his actions, battling pollution and organizing beach clean-ups. Trusted by dolphins and sea turtles alike, his dedication knows no bounds. Pizza-loving and devoted to his brothers, he fights for a cleaner, healthier world." textAlignment="JUSTIFY" wrappingWidth="322.0">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#03613e" layoutX="232.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIKEY">
+         <font>
+            <Font name="System Bold Italic" size="42.0" />
+         </font>
+      </Text>
+      <Text fill="#bf6f0f" layoutX="486.0" layoutY="549.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Michelangelo" textAlignment="JUSTIFY" wrappingWidth="248.99999999999994">
+         <font>
+            <Font name="System Bold Italic" size="38.0" />
+         </font>
+      </Text>
+      <Button fx:id="backButton" layoutX="815.0" layoutY="660.0" mnemonicParsing="false" onAction="#onBackButtonClick" prefHeight="25.0" prefWidth="77.0" text="BACK" />
+   </children>
+</AnchorPane>
