@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="438.0" prefWidth="673.0" spacing="20.0"
+      style="-fx-background-image: url('file:src/main/resources/MainMenuBG.jpg');"
+      xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+    <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <ImageView fitHeight="179.0" fitWidth="321.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../Title (Main Page).png" />
+      </image>
+   </ImageView>
+  <Button onAction="#onHelloButtonClick" prefHeight="27.0" prefWidth="70.0" style="-fx-background-color: #FFA500;" text="START" textFill="WHITE">
+      <effect>
+         <SepiaTone level="0.0">
+            <input>
+               <Reflection />
+            </input>
+         </SepiaTone>
+      </effect>
+      <font>
+         <Font name="Fugaz One" size="14.0" />
+      </font></Button>
+   <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="70.0" style="-fx-background-color: #FFA500;" text="INFO" textFill="WHITE">
+      <font>
+         <Font name="Fugaz One" size="14.0" />
+      </font>
+      <effect>
+         <SepiaTone level="0.0">
+            <input>
+               <Reflection />
+            </input>
+         </SepiaTone>
+      </effect></Button>
+   <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="70.0" style="-fx-background-color: #FFA500;" text="EXIT" textFill="WHITE">
+      <effect>
+         <SepiaTone level="0.0">
+            <input>
+               <Reflection />
+            </input>
+         </SepiaTone>
+      </effect>
+      <font>
+         <Font name="Fugaz One" size="14.0" />
+      </font></Button>
+</VBox>

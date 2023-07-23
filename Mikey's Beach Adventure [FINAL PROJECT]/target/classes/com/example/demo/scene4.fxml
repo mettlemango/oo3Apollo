@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="907.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controller">
+    <children>
+        <ImageView fitHeight="554.0" fitWidth="912.0" layoutX="-4.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../Scene4.png" />
+            </image>
+        </ImageView>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8efd3" height="134.0" layoutX="12.0" layoutY="554.0" stroke="BLACK" strokeType="INSIDE" width="885.0" />
+        <Text fill="RED" layoutX="24.0" layoutY="584.0" lineSpacing="4.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cowabunga! Huge congrats to all of you awesome peeps for making radical decisions to protect our ocean and planet. Your trash segregation, recycling, and conservation efforts are making a mondo difference! Keep it up, dudes and dudettes! Cowabunga!" textAlignment="JUSTIFY" wrappingWidth="865.3554534912109">
+            <font>
+                <Font name="Wingdings" size="24.0" />
+            </font>
+        </Text>
+        <Button layoutX="830.0" layoutY="654.0" mnemonicParsing="false" onAction="#onBackButtonClick" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #f8efd3;" text="➜">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="691.0" fitWidth="976.0" layoutX="-16.0" layoutY="-79.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../congrats.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="907.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controller">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8efd3" height="134.0" layoutX="12.0" layoutY="554.0" stroke="BLACK" strokeType="INSIDE" width="885.0" />
+        <Text fill="RED" layoutX="24.0" layoutY="589.0" lineSpacing="6.0" strokeType="OUTSIDE" strokeWidth="0.0" text="As Mikey continues his walk, he feels a sense of contentment that he made a small difference. He believes that by encouraging responsible actions, he has contributed to keeping the beach clean and protecting the marine life." textAlignment="JUSTIFY" wrappingWidth="862.0924682617188">
+            <font>
+                <Font name="Wingdings" size="24.0" />
+            </font>
+        </Text>
+        <Button layoutX="830.0" layoutY="654.0" mnemonicParsing="false" onAction="#onGoToScene4ButtonClick" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #f8efd3;" text="➜">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
