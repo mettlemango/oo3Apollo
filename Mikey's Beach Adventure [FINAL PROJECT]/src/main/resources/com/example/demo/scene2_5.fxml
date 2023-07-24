@@ -14,7 +14,7 @@
             </image>
         </ImageView>
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8efd3" height="134.0" layoutX="12.0" layoutY="554.0" stroke="BLACK" strokeType="INSIDE" width="885.0" />
-        <Text fill="RED" layoutX="53.0" layoutY="594.0" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="He deposits the waste in the bin, his smile now even brighter, knowing he made the right choice. He deposits the waste in the bin, his smile now even brighter, knowing he made the right choice." textAlignment="JUSTIFY" wrappingWidth="805.2035942077637">
+        <Text fill="RED" layoutX="53.0" layoutY="594.0" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="He deposits the waste in the bin, his smile now even brighter, knowing he made the right choice." textAlignment="JUSTIFY" wrappingWidth="805.2035942077637">
             <font>
                 <Font name="Wingdings" size="24.0" />
             </font>
