@@ -1,0 +1,44 @@
+@startuml
+class com.example.demo.Main {
+- mediaPlayer: MediaPlayer
+- backgroundMusicVolume: double
++ void start(Stage)
++ {static} void main(String[])
+}
+class com.example.demo.Controller {
+- void onStartButtonClick(ActionEvent)
+- void onInfoButtonClick(ActionEvent)
+- void onExitButtonClick(ActionEvent)
+- void onBackButtonClick(ActionEvent)
+- void onGoToScene1_1ButtonClick(ActionEvent)
+- void onGoToScene1_2ButtonClick(ActionEvent)
+- void onGoToScene1_3ButtonClick(ActionEvent)
+- void onGoToScene1_3ChoicesButtonClick(ActionEvent)
+- void onGoToScene1_3BadButtonClick(ActionEvent)
+- void onGoToScene1_3GoodButtonClick(ActionEvent)
+- void onGoToScene1_4ButtonClick(ActionEvent)
+- void onGoToScene1_5ButtonClick(ActionEvent)
+- void onGoToScene1_6ButtonClick(ActionEvent)
+- void onGoToScene2ButtonClick(ActionEvent)
+- void onGoToScene2_1ButtonClick(ActionEvent)
+- void onGoToScene2_2ButtonClick(ActionEvent)
+- void onGoToScene2_3ButtonClick(ActionEvent)
+- void onGoToScene2_3ChoiceButtonClick(ActionEvent)
+- void onGoToScene2_3BadButtonClick(ActionEvent)
+- void onGoToScene2_3GoodButtonClick(ActionEvent)
+- void onGoToScene2_4ButtonClick(ActionEvent)
+- void onGoToScene2_5ButtonClick(ActionEvent)
+- void onGoToScene3ButtonClick(ActionEvent)
+- void onGoToScene3_1ButtonClick(ActionEvent)
+- void onGoToScene3_2ButtonClick(ActionEvent)
+- void onGoToScene3_2ChoicesButtonClick(ActionEvent)
+- void onGoToScene3_2BadButtonClick(ActionEvent)
+- void onGoToScene3_2GoodButtonClick(ActionEvent)
+- void onGoToScene3_3ButtonClick(ActionEvent)
+- void onGoToScene3_4ButtonClick(ActionEvent)
+- void onGoToScene4ButtonClick(ActionEvent)
+}
+
+
+javafx.application.Application <|-- com.example.demo.Main
+@enduml

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="907.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controller">
+    <children>
+        <ImageView fitHeight="554.0" fitWidth="912.0" layoutX="-4.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../Scene5.png" />
+            </image>
+        </ImageView>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8efd3" height="134.0" layoutX="12.0" layoutY="554.0" stroke="BLACK" strokeType="INSIDE" width="885.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="369.0" layoutX="402.0" layoutY="106.0" stroke="BLACK" strokeType="INSIDE" width="445.0">
+            <effect>
+                <DropShadow />
+            </effect>
+        </Rectangle>
+        <Text fill="#ff5100" layoutX="425.0" layoutY="156.0" lineSpacing="4.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hey, dude! Picking up litter is like teaching the Foot Clan a lesson. It shows we won't stand for trashing our home turf! We're true heroes in a half shell, caring for Mother Earth. Let's lead by example and make a radical difference for our planet and its awesome creatures! Cowabunga! 🌎🐢💪" textAlignment="JUSTIFY" wrappingWidth="399.2479362487793">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+            <effect>
+                <Glow />
+            </effect>
+        </Text>
+        <Text fill="RED" layoutX="426.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GAME OVER!!" wrappingWidth="364.58137130737305">
+            <font>
+                <Font name="System Bold" size="55.0" />
+            </font>
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Text>
+        <Button layoutX="242.0" layoutY="604.0" mnemonicParsing="false" onAction="#onStartButtonClick" prefHeight="56.0" prefWidth="118.0" style="-fx-background-color: GREEN;" text="YES" textFill="WHITE">
+            <font>
+                <Font name="Arial Black" size="20.0" />
+            </font>
+        </Button>
+        <Button layoutX="549.0" layoutY="604.0" mnemonicParsing="false" onAction="#onExitButtonClick" prefHeight="56.0" prefWidth="118.0" style="-fx-background-color: RED;" text="NO" textFill="WHITE">
+            <font>
+                <Font name="Arial Black" size="20.0" />
+            </font>
+        </Button>
+        <Text layoutX="361.0" layoutY="596.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Try again?">
+            <font>
+                <Font name="Lucida Sans Unicode" size="38.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
